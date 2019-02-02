@@ -304,4 +304,7 @@ ro.qq.camera.sensor=3
 #Extb-TABV7-5365, jiahainan.wt, add for SAP, 20190116
 persist.vendor.radio.sap_silent_pin=1
 
-#
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
