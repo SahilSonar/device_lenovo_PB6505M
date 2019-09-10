@@ -86,5 +86,8 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-02-05
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
+
 # Inherit from the proprietary version
 -include vendor/lenovo/PB6505M/BoardConfigVendor.mk
