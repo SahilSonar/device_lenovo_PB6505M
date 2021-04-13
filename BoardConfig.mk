@@ -89,6 +89,10 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-02-05
 
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
