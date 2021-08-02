@@ -17,6 +17,9 @@
 DEVICE_PATH := device/lenovo/PB6505M
 BOARD_VENDOR := lenovo
 
+# APEX
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
