@@ -63,5 +63,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
+
 # Inherit vendor
 $(call inherit-product, vendor/lenovo/PB6505M/BoardConfigVendor.mk)
